@@ -310,7 +310,7 @@ def plot_feature_importance(importance, names, model_name):
 if __name__ == "__main__":
     # Define dataset path and class labels
     # Updated dataset path
-    data_path = "anemia_severity_dataset_balanced_auc.csv"
+    data_path = "anemia_severity_dataset.csv"
     # Define class labels corresponding to numeric values 0, 1, 2, 3
     class_labels_map = {0: 'Normal', 1: 'Mild', 2: 'Moderate', 3: 'Severe'}
     class_labels_list = ['Normal', 'Mild', 'Moderate', 'Severe'] # For metrics target_names
